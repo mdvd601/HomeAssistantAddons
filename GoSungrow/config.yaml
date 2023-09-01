@@ -3,7 +3,7 @@ description: "Fetch data from isolarcloud.com and push to HA."
 version: "3.0.3"
 stage: "stable"
 slug: "gosungrow"
-url: "https://github.com/MickMake/GoSunGrow/"
+url: "https://github.com/mdvd601/GoSungrow/"
 codenotary: "mick@mickmake.com"
 arch:
   - armhf
