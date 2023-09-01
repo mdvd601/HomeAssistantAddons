@@ -58,7 +58,7 @@ esac
 ARCH="${OS}_${HW}"
 
 REPO="GoSungrow"
-URL="https://api.github.com/repos/MickMake/${REPO}/releases/latest"
+URL="https://api.github.com/repos/mdvd601/${REPO}/releases/latest"
 
 echo bashio::log.info "Searching for architecture type \"${ARCH}\" on repo \"${URL}\" ..."
 
@@ -81,7 +81,7 @@ fi
 
 echo bashio::log.info "Downloading file \"${FILENAME}\" from repo \"${URL}\" ..."
 # cd /tmp
-# wget -O- https://github.com/MickMake/GoSungrow/releases/download/v${GOSUNGROW_VERSION}/GoSungrow-linux_${ARCH}.tar.gz | tar zxvf - GoSungrow
+# wget -O- https://github.com/mdvd601/GoSungrow/releases/download/v${GOSUNGROW_VERSION}/GoSungrow-linux_${ARCH}.tar.gz | tar zxvf - GoSungrow
 wget --show-progress -q "${RETURN}"
 checkExit
 
